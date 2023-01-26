@@ -1,5 +1,6 @@
 package class_examples.STDIO;
 
+
 import java.util.Scanner;
 
 public class Input {
@@ -8,7 +9,7 @@ public class Input {
         System.out.print("Enter a word: ");
         String word = in.next();
         //clean input
-        in.nextLine();
+//        in.nextLine();
         System.out.println("You entered: " + word);
         System.out.print("Enter a sentence: ");
         String sentence = in.nextLine();

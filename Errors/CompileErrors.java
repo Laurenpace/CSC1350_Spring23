@@ -8,16 +8,14 @@ public class CompileErrors {
         Scanner in = new Scanner(System.in);
 
 //        misnaming/case errors are examples of compile errors
-//        input.nextInt(); //if this was in.nextInt(); it would compile
+//        inp.nextLine(); //if this was in.nextInt(); it would compile
 //        System.out.println("missing semicolons can cause a compile error")
         int num = 5;
 //        Num = 3; //incorrect casing
-
         //missing semicolon
-//        System.out.println("hi")
-
+//        System.out.println("hi");
         //extra curly brace
-//    }
+    }
 
     }
-}
+

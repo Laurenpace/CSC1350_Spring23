@@ -11,5 +11,6 @@ public class Comments {
         block comment
         multiple lines
          */
+        System.out.println("%");
     }
 }
