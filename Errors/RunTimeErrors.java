@@ -1,4 +1,4 @@
-package class_examples.Errors;
+package class_examples.CSC1350_Spring23.Errors;
 
 public class RunTimeErrors {
     public static void main(String[] args) {

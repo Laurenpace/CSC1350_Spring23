@@ -1,4 +1,4 @@
-package class_examples.JavaIntroLecture;
+package class_examples.CSC1350_Spring23.JavaIntroLecture;
 
 public class HelloWorld {
     public static void main(String[] args) {

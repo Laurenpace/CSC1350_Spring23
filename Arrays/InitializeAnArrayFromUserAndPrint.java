@@ -1,4 +1,4 @@
-package class_examples.Arrays;
+package class_examples.CSC1350_Spring23.Arrays;
 
 import java.util.Scanner;
 

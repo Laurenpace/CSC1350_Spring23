@@ -18,26 +18,27 @@ public class Operators {
 
         //Addition
         int sum = num1 + num2;
-        System.out.println("num1 + num2 = " + sum);
+        System.out.println("10 + 5 = " + sum);
         //Subtraction
         int difference = num1 - num2;
-        System.out.println(difference);
+        System.out.println("10 - 5 = " + difference);
         //Multiplication
         int product = num1 * num2;
-        System.out.println(product);
+        System.out.println("10 * 5 = " + product);
         //Division
         int quotient = num1/num2;
-        System.out.println(quotient);
+        System.out.println("10 / 5 = " + quotient);
 
         //The division above works really well because 10 divides by 5 evenly
         //If we had two integers that didn't divide evenly we would have an inaccurate value
         //This is called integer division
         //When dividing integer there is no remainder
+        //Division
 
         num1 = 10;
         num2 = 3;
         quotient = num1/num2;
-        System.out.println(quotient);
+        System.out.println("integer 10/3 = " + quotient);
         //the quotient above prints 3.
         //this is because we divide 3 into 10 3 times and the remainder (1) gets cut
         //this is because the integer can not store that decimal remainder
@@ -45,14 +46,29 @@ public class Operators {
         double doubleNum1 = 10;
         double doubleNum2 = 3;
         double doubleQuotient = doubleNum1/doubleNum2;
-        System.out.println(doubleQuotient);
+        System.out.println("double 10/3 = " + doubleQuotient);
         //now our remainder is saved because we have the datatype that can store it
 
         //the modulus operator can be very useful in programming
         //often it is used to know if a number is odd or even
+        System.out.println("\nModulus examples");
+        int remainder = num1%num2;
+        System.out.println("integer 10%3 = " + remainder);
 
-        System.out.println(num1%2);
-        System.out.println(num2%2);
 
+
+        System.out.println("10%2 = " + num1%2);
+        System.out.println("5%2 = " + num2%2);
+
+        System.out.println("\nIncrement and decrement");
+        int count = 0;
+        int num = count++;
+        System.out.println("num assigned to 0++: " + num);
+        System.out.println("result of 0++: " + count);
+
+        count = 0;
+        num = ++count;
+        System.out.println("num assigned to +00: " +num);
+        System.out.println("result of ++0: " +count);
     }
 }

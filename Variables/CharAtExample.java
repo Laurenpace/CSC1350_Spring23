@@ -1,4 +1,4 @@
-package class_examples.Variables;
+package class_examples.CSC1350_Spring23.Variables;
 
 public class CharAtExample {
     public static void main(String[] args) {

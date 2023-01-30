@@ -1,4 +1,4 @@
-package class_examples.STDIO;
+package class_examples.CSC1350_Spring23.STDIO;
 
 public class HelloWorldprint {
     public static void main(String[] args) {

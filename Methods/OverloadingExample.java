@@ -1,4 +1,4 @@
-package class_examples.Methods;
+package class_examples.CSC1350_Spring23.Methods;
 
 public class OverloadingExample {
     public static void main(String[] args) {
