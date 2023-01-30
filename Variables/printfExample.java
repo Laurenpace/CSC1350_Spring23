@@ -9,7 +9,7 @@ public class printfExample {
         double tax = 0.05;
         System.out.printf("price: %d, tax: %.2f\n", price, tax);
 
-        String items = "Claims";
+        String items = "Clams";
         double price2 = 17.29;
         System.out.printf("%-10s%10.2f", items + ":", price2);
 
