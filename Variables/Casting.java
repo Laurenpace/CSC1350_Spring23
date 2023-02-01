@@ -22,10 +22,10 @@ public class Casting {
 
         //explicit casting lossy conversion
         int castedDoubleToInt = (int) doubleToCast;
-
+        System.out.println("int to double" + castedDoubleToInt);
         //casting characters to integers
         char char_a = 'a';
-        int char_a_toInt = char_a;
+        int char_a_toInt = 'a';
 
         System.out.println(char_a);
         System.out.println(char_a_toInt);

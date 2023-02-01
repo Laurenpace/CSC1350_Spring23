@@ -9,5 +9,6 @@ public class ContainsExample {
         System.out.println(testString.contains("word")); //can check if part of a word is in a string
         System.out.println(testString.contains("Words")); //contains is case sensitive
         System.out.println(testString.contains("?")); //contains is case sensitive
+        System.out.println(testString.toUpperCase());
     }
 }

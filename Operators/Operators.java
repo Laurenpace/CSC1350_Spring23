@@ -62,13 +62,13 @@ public class Operators {
 
         System.out.println("\nIncrement and decrement");
         int count = 0;
-        int num = count++;
+        int num = count++; //value of count returned (assigned) then incremented
         System.out.println("num assigned to 0++: " + num);
         System.out.println("result of 0++: " + count);
 
         count = 0;
-        num = ++count;
-        System.out.println("num assigned to +00: " +num);
-        System.out.println("result of ++0: " +count);
+        num = ++count; //value of count incremented then returned
+        System.out.println("num assigned to ++0: " + num);
+        System.out.println("result of ++0: " + count);
     }
 }
