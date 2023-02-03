@@ -60,6 +60,20 @@ public class Operators {
         System.out.println("10%2 = " + num1%2);
         System.out.println("5%2 = " + num2%2);
 
+        int number = 10;
+        System.out.println(number);
+        number %= 2;
+        number = number % 2;
+
+        number = 10;
+
+        number -= 5;
+        System.out.println(number);
+
+        number = number - 5;
+
+        System.out.println(number);
+
         System.out.println("\nIncrement and decrement");
         int count = 0;
         int num = count++; //value of count returned (assigned) then incremented
