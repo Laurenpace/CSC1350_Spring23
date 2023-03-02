@@ -13,6 +13,10 @@ public class For {
             System.out.println("Hello world!");
             i++;
         }
+        for (int j = 0; j <= 10; j = j + 2) {
+            System.out.println(j);
+
+        }
 
     }
 }
