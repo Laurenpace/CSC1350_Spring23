@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class While {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int num = 0;
-        while(num <= 20)
-        {
-            System.out.println(num);
-            num++;
-        }
+//        int num = 0;
+//        while(num <= 100)
+//        {
+//            System.out.println(num);
+//            num++;
+//        }
 
         System.out.print("Enter your password: ");
         String pw1 = in.nextLine();
