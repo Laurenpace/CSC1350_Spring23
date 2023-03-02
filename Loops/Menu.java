@@ -16,6 +16,7 @@ public class Menu {
                 "5. Exit";
         System.out.println(menu);
 
+
         while(flag){
             System.out.print("Enter a menu option: ");
             switch (in.nextInt()){
@@ -31,6 +32,7 @@ public class Menu {
                         if(in.nextLine().equalsIgnoreCase("yes")){
                             System.out.print("Enter your name: ");
                             name = in.nextLine();
+//                            in.nextLine();
                         }
                     }
                     break;
