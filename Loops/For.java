@@ -17,6 +17,9 @@ public class For {
             System.out.println(j);
 
         }
+        for (int k = 10; k > 0; k--){
+            System.out.print(k + "...");
+        }
 
     }
 }
