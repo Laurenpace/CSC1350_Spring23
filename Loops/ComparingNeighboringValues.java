@@ -8,7 +8,6 @@ public class ComparingNeighboringValues {
         Scanner in = new Scanner(System.in);
         long currentInput = in.nextLong();
         while (in.hasNextLong()) {
-
             long previousInput = currentInput;
             currentInput = in.nextLong();
             if (currentInput == previousInput) {

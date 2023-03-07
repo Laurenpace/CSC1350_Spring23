@@ -3,6 +3,8 @@ package class_examples.CSC1350_Spring23.Methods;
 public class ReturnExamples {
     public static void main(String[] args) {
         System.out.println(returnLiteralString());
+        System.out.println(returnAddedIntegersGood(4, 5));
+        System.out.println(returnAddedIntegersUgly(4, 5));
     }
 
 //    returning a literal
